@@ -692,7 +692,7 @@ body:not(.wf-control) .bento-item-wide {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .checklist.dark li:before {
   background: linear-gradient(0deg, #2C2B32 0%, #2C2B32 100%);
@@ -910,6 +910,26 @@ html:not(.wf-design-mode) .responsive-tab.active .tabs-content {
 }
 .gapless-horizontal {
   column-gap: 0;
+}
+
+a {
+  position: relative;
+}
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -8px;
+  left: 0;
+  height: 10px;
+  background-image: url("../assets/underline.svg");
+  background-repeat: no-repeat;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.2s ease-in;
+}
+a:hover:before {
+  transform: scaleX(1);
 }
 
 /*# sourceMappingURL=style.css.map */
