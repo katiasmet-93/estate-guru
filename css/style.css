@@ -382,11 +382,6 @@ body:not(.wf-control) > *:not(.reset-forms) form:not(.remove-styles) .css-checkb
 body:not(.wf-control) > *:not(.reset-forms) form:not(.remove-styles) .css-checkbox + label .fa-square-minus {
   display: none;
 }
-body:not(.wf-control) > .wrap {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 78.88px));
-  justify-content: center;
-}
 body:not(.wf-control) > .wrap.wider {
   grid-template-columns: repeat(12, minmax(0, 140px));
 }
@@ -912,10 +907,10 @@ html:not(.wf-design-mode) .responsive-tab.active .tabs-content {
   column-gap: 0;
 }
 
-a {
+p a {
   position: relative;
 }
-a:before {
+p a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -928,7 +923,7 @@ a:before {
   transform-origin: left center;
   transition: transform 0.2s ease-in;
 }
-a:hover:before {
+p a:hover:before {
   transform: scaleX(1);
 }
 
