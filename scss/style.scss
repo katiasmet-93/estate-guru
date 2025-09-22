@@ -714,7 +714,8 @@ html:not(.wf-design-mode) .responsive-tab {
 
 p a {
     position: relative;
-
+    color: #0166CC;
+    
     &:before {
         content: "";
         position: absolute;

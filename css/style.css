@@ -909,6 +909,7 @@ html:not(.wf-design-mode) .responsive-tab.active .tabs-content {
 
 p a {
   position: relative;
+  color: #0166CC;
 }
 p a:before {
   content: "";
