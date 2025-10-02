@@ -57,8 +57,6 @@
 }
 
 .tabs-regular .tab-link-text--alt {
-  padding-left: 30px;
-  padding-right: 30px;
   position: relative;
 }
 .tabs-regular .tab-link-text--alt:before {
@@ -66,16 +64,16 @@
   position: absolute;
   top: 50%;
   left: 0;
-  color: red;
+  color: rgb(180, 16, 16);
   font-size: 24px;
   font-family: "Braden Hill", serif;
   transform: translateY(-50%);
 }
-.tabs-regular .w-tab-link.w--current .tab-link-text--alt {
+.tabs-regular .tab-link--alt.w--current .tab-link-text--alt {
   opacity: 1;
 }
 @media screen and (min-width: 992px) {
-  .tabs-regular .w-tab-link.w--current::after {
+  .tabs-regular .tab-link--alt.w--current::after {
     content: "";
     background-image: linear-gradient(90deg, rgb(180, 16, 16) 0%, rgba(180, 16, 16, 0.2) 100%);
     position: absolute;

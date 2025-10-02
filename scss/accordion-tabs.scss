@@ -70,8 +70,6 @@
 
 .tabs-regular {
 	.tab-link-text--alt {
-		padding-left: 30px;
-		padding-right: 30px;
 		position: relative;
 
 		&:before { 
@@ -79,14 +77,14 @@
 			position: absolute;
 			top: 50%;
 			left: 0;
-			color: red;
+			color: $red;
 			font-size: 24px;
 			font-family: "Braden Hill", serif;
 			transform: translateY(-50%);
 		}
 	}
 
-	.w-tab-link.w--current {
+	.tab-link--alt.w--current {
 		.tab-link-text--alt {
 			opacity: 1;
 		}
