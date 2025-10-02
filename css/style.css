@@ -67,7 +67,7 @@
   color: rgb(180, 16, 16);
   font-size: 24px;
   font-family: "Braden Hill", serif;
-  transform: translateY(-50%);
+  transform: translateY(-50%) translateY(4px);
 }
 .tabs-regular .tab-link--alt.w--current .tab-link-text--alt {
   opacity: 1;
