@@ -69,14 +69,14 @@
 }
 
 .tabs-regular {
-	.tab-link-text--alt {
+	.tab-link--alt{
 		position: relative;
 
 		&:before { 
 			content: "*";
 			position: absolute;
 			top: 50%;
-			left: 0;
+			left: 10px;
 			color: $red;
 			font-size: 24px;
 			font-family: "Braden Hill", serif;

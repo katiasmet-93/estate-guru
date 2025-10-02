@@ -55,14 +55,14 @@
   }
 }
 
-.tabs-regular .tab-link-text--alt {
+.tabs-regular .tab-link--alt {
   position: relative;
 }
-.tabs-regular .tab-link-text--alt:before {
+.tabs-regular .tab-link--alt:before {
   content: "*";
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 10px;
   color: rgb(180, 16, 16);
   font-size: 24px;
   font-family: "Braden Hill", serif;
